@@ -1,0 +1,96 @@
+/* Estilos para el contenedor principal */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilos para el contenedor del formulario de inicio de sesión */
+#loginContainer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el formulario de inicio de sesión */
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilos para los títulos del formulario */
+.loginForm h4 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+/* Estilos para los campos de texto del formulario */
+.loginForm input[type="text"],
+.loginForm input[type="password"] {
+    width: 250px;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #999;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+/* Estilos para el botón de enviar del formulario */
+.loginForm input[type="submit"] {
+    width: 250px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+/* Estilos adicionales para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+/* Estilos para el contenedor de búsqueda */
+.searchContainer {
+    margin-bottom: 10px;
+    text-align: center; 
+}
+
+/* Estilos para el campo de búsqueda */
+.searchContainer input[type="text"] {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+/* Estilos para el botón de búsqueda */
+.searchContainer button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Estilo para usuarios desbloqueados */
+.unblockedUser {
+    background-color: #cef8c6; 
+}
+
+/* Estilo para usuarios bloqueados */
+.blockedUser {
+    background-color: #fd9f8b; 
+}
+
